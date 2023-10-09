@@ -2,7 +2,7 @@
 import express from "express";
 
 const app = express();
-const port = 3000;
+const port = 4021;
 // uses static method to access non dynamic files (css,images and all files that are not changing)
 app.use(express.static("public"));
 
